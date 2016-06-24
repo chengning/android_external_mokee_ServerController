@@ -679,6 +679,12 @@ $hardware_info = array(
                      'battery' => '3100 mAh',
                      'display' => '5.2 inch, 1920x1080 pixel(424ppi)',
                      'cpuarch' => 'Arm'),
+    'n7100' => array('cpu' => 'Samsung Exynos 4412 cortex-A9',
+                     'ram' => '2GB',
+                     'rom' => '16GB',
+                     'battery' => '3100 mAh',
+                     'display' => '5.5 inch, 1280x720 pixel(267ppi)',
+                     'cpuarch' => 'Arm'),
 );
 
 foreach ($devices_info as $k => $val) {
